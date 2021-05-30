@@ -169,6 +169,7 @@ article .checkmarks .mark span{
 }
 .mid .icons .desc {
   box-sizing: border-box;
+  padding : 0 0 0 5px;
 }
 .mid .icons .desc p{
   padding: 0px 75px 0px 0px;
@@ -186,10 +187,10 @@ article .checkmarks .mark span{
 
 .mid .bigCard{
   box-sizing: border-box;
-  padding: 25px 20px;
+  padding: 25px 25px;
   background-color: #4218D9;
   border-radius: 6px;
-  width: 1351;
+  
   height: 500px;
   display: flex;
   overflow: hidden;
@@ -224,13 +225,65 @@ article .checkmarks .mark span{
 }
 .mid .bigCard .pageImg{
   
-  padding-top: 0px;
+  padding-right: 25px;
   
 }
 .mid .bigCard .pageImg img{
   width: 650px;
   height: 100%;
   margin-top: 25px;
-  
-  
+}
+.cards{
+  display: flex;
+  box-sizing: border-box;
+  padding: 25px 0px;
+  justify-content: space-between;
+}
+.profile-card{
+  width: 380px;
+  height: 300px;
+  border: solid 1px #ccc;
+  box-sizing: border-box;
+  padding : 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-card .person-title{
+  display: flex;
+  padding : 15px 15px ;
+}
+
+.nameUser{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px;
+}
+.profile-card .person-title h1{
+  color: #4218D9;
+  font-size: 11pt;
+}
+.profile-card .person-title .nameUser span{
+  font-size: 11pt;
+}
+.profile-card  p{
+  box-sizing: border-box;
+  padding: 0px 10px;
+  font-size: 12pt;
+  letter-spacing: 0.5px;
+}
+.profile-card  button{
+  width: 300px;
+  align-self: center;
+  height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px 0;
+  margin-top: 35px;
+
+  background-color: #FFF;
+  color: #4218D9;
+  font-weight: 600;
+  font-size: 12pt;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
